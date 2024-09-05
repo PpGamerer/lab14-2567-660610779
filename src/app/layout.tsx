@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Lab14",
   description: "Food Review Mockup UI",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,3 +23,4 @@ export default function RootLayout({
     </html>
   );
 }
+
