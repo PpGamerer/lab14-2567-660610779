@@ -36,13 +36,13 @@ export default function Home() {
         <Title order={4}>Mark Zuck</Title>
         <Rating defaultValue={4} size="sm" readOnly/>
       </Group>
-      <Text ta="center" c="dimmed" fz="sm">My favourite part is pepperoni</Text> 
+      <Text ta="center" c="dimmed" fz="15px">My favourite part is pepperoni</Text> 
 
       <Group justify="center">
       <Pagination total={20} color="orange" my="sm"/>
       </Group>
       
-      <Text ta="center" my="sm" c="dimmed" fz="15" fw="inherit">
+      <Text ta="center" my="sm" c="dimmed" fz="15px" fw="inherit">
         {/* Copyright © 2024 Pimolnat Kaewboot 660610779 */}
         <Footer 
             year="2024"
